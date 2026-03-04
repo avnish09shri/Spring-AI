@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gemma
+  ai:
+    openai:
+      chat:
+        options:
+          model: ai/gemma3
+        base-url: http://localhost:12434/engines
+      api-key: dummy
