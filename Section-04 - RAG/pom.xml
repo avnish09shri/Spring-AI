@@ -56,6 +56,11 @@
 			<artifactId>spring-ai-starter-vector-store-qdrant</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-redis-semantic-cache</artifactId>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-docker-compose</artifactId>
 			<scope>runtime</scope>
@@ -72,6 +77,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-h2console</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-tika-document-reader</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
